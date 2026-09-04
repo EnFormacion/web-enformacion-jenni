@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos | En-Formación</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER/NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-icon">EN</span>
+                <span class="logo-text">FORMACIÓN</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="cursos.html" class="nav-link active">Cursos</a>
+                <a href="sobre-nosotros.html" class="nav-link">Sobre nosotros</a>
+                <a href="galeria.html" class="nav-link">Aulas</a>
+                <a href="contacto.html" class="nav-link cta-btn">Contacto</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO CURSOS -->
+    <section class="hero-cursos">
+        <div class="hero-overlay">
+            <h1>Nuestros Cursos</h1>
+            <p>Formación profesional adaptada a tu futuro</p>
+        </div>
+    </section>
+
+    <!-- FILTROS -->
+    <section class="filter-section">
+        <div class="container">
+            <h2>Filtrar por categoría</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="informatica">Informática</button>
+                <button class="filter-btn" data-filter="administracion">Administración</button>
+                <button class="filter-btn" data-filter="comercio">Comercio</button>
+                <button class="filter-btn" data-filter="servicios">Servicios</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- GRID DE CURSOS -->
+    <section class="cursos-section">
+        <div class="container">
+            <div class="cursos-grid">
+                
+      <!-- CURSO 1 - IDIOMAS -->
+<div class="curso-card" data-category="idiomas">
+    <div class="curso-imagen">
+        <img src="img/curso-idiomas.jpg" alt="Idiomas">
+    </div>
+    <div class="curso-header">
+        <span class="curso-icon">🌐</span>
+        <span class="curso-nivel">Nivel: Todos</span>
+    </div>
+    <div class="curso-body">
+        <h3>Inglés - Trinity College London</h3>
+        <p class="curso-desc">Preparación de inglés para todas las edades. Certificaciones oficiales de Trinity College (A2, B1, B2, C1). Centro examinador oficial.</p>
+        <div class="curso-info">
+            <span>📚 Flexible</span>
+            <span>👥 Grupos reducidos</span>
+        </div>
+    </div>
+    <div class="curso-footer">
+        <a href="#contacto" class="btn-curso">Más información</a>
+    </div>
+</div>
+
+<!-- CURSO 2 - OFIMÁTICA -->
+<div class="curso-card" data-category="informatica">
+    <div class="curso-imagen">
+        <img src="img/curso-gestion.jpg" alt="Ofimática">
+    </div>
+    <div class="curso-header">
+        <span class="curso-icon">💻</span>
+        <span class="curso-nivel">Nivel: Básico/Avanzado</span>
+    </div>
+    <div class="curso-body">
+        <h3>Ofimática Básica y Avanzada</h3>
+        <p class="curso-desc">Formación práctica en Microsoft Office. Word, Excel, PowerPoint y herramientas esenciales para el trabajo administrativo.</p>
+        <div class="curso-info">
+            <span>📚 Flexible</span>
+            <span>👥 Todos los niveles</span>
+        </div>
+    </div>
+    <div class="curso-footer">
+        <a href="#contacto" class="btn-curso">Más información</a>
+    </div>
+</div>
+
+<!-- CURSO 3 - COMPETENCIAS DIGITALES -->
+<div class="curso-card" data-category="informatica">
+    <div class="curso-imagen">
+        <img src="img/curso-competencias-digitales.jpg" alt="Competencias Digitales">
+    </div>
+    <div class="curso-header">
+        <span class="curso-icon">📱</span>
+        <span class="curso-nivel">Nivel: Básico</span>
+    </div>
+    <div class="curso-body">
+        <h3>Competencias Digitales</h3>
+        <p class="curso-desc">Uso seguro de Internet, navegación, correo electrónico y herramientas esenciales para trabajo y comunicación en línea.</p>
+        <div class="curso-info">
+            <span>📚 Flexible</span>
+            <span>👥 Gratuito/Subvencionado</span>
+        </div>
+    </div>
+    <div class="curso-footer">
+        <a href="#contacto" class="btn-curso">Más información</a>
+    </div>
+</div>
+
+<!-- CURSO 4 - HOSTELERÍA DUAL -->
+<div class="curso-card" data-category="servicios">
+    <div class="curso-imagen">
+        <img src="img/curso-hosteleria.jpg" alt="Hostelería">
+    </div>
+    <div class="curso-header">
+        <span class="curso-icon">🏨</span>
+        <span class="curso-nivel">Nivel: Profesional</span>
+    </div>
+    <div class="curso-body">
+        <h3>Hostelería y Restauración (Formación Dual)</h3>
+        <p class="curso-desc">Certificados duales con contrato de trabajo remunerado. Servicios de Bar, Cafetería y Restaurante. Formación + Empleo.</p>
+        <div class="curso-info">
+            <span>📚 2000 horas</span>
+            <span>👥 Certificado oficial</span>
+        </div>
+    </div>
+    <div class="curso-footer">
+        <a href="#contacto" class="btn-curso">Más información</a>
+    </div>
+</div>
+
+<!-- CURSO 5 - OPOSICIONES -->
+<div class="curso-card" data-category="administracion">
+    <div class="curso-imagen">
+        <img src="img/curso-oposiciones.jpg" alt="Oposiciones">
+    </div>
+    <div class="curso-header">
+        <span class="curso-icon">📚</span>
+        <span class="curso-nivel">Nivel: Avanzado</span>
+    </div>
+    <div class="curso-body">
+        <h3>Preparación de Oposiciones</h3>
+        <p class="curso-desc">Preparación teórica y legislativa para plazas de empleo público. Auxiliar Administrativo, servicios de salud y SESCAM.</p>
+        <div class="curso-info">
+            <span>📚 Adaptable</span>
+            <span>👥 Grupos pequeños</span>
+        </div>
+    </div>
+    <div class="curso-footer">
+        <a href="#contacto" class="btn-curso">Más información</a>
+    </div>
+</div>
+
+<!-- CURSO 6 - LICENCIAS PROFESIONALES -->
+<div class="curso-card" data-category="comercio">
+    <div class="curso-imagen">
+        <img src="img/curso-Licencias y Certificaciones.jpg" alt="Licencias">
+    </div>
+    <div class="curso-header">
+        <span class="curso-icon">🔒</span>
+        <span class="curso-nivel">Nivel: Técnico</span>
+    </div>
+    <div class="curso-body">
+        <h3>Licencias y Certificaciones Técnicas</h3>
+        <p class="curso-desc">PRL (Prevención de Riesgos Laborales), Manipulación de Alimentos, Manipulador de Fitosanitarios. Certificaciones obligatorias.</p>
+        <div class="curso-info">
+            <span>📚 Oficial</span>
+            <span>👥 Todos los sectores</span>
+        </div>
+    </div>
+    <div class="curso-footer">
+        <a href="#contacto" class="btn-curso">Más información</a>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-cursos">
+        <h2>¿No encuentras lo que buscas?</h2>
+        <p>Contacta con nosotros para conocer otros programas de formación</p>
+        <a href="contacto.html" class="btn btn-large">Solicitar información</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>En-Formación</h4>
+                <p>Centro de Formación Profesional con más de 25 años de experiencia</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Reyes Católicos, 32 - Manzanares</p>
+                <p><i class="fas fa-phone"></i> 608 842 422</p>
+                <p><i class="fas fa-envelope"></i> info@en-formacion.es</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+    <a href="https://facebook.com/enformacionmanzanares" class="social-link-button" target="_blank">
+        <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a href="https://instagram.com/enformacion" class="social-link-button" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://twitter.com/enformacion" class="social-link-button" target="_blank">
+        <i class="fab fa-twitter"></i> Twitter
+    </a>
+</div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 En-Formación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
