@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas | En-Formación</title>
+    
+    <!-- Hojas de estilo unificadas -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-icon">EN</span>
+                <span class="logo-text">FORMACIÓN</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="cursos.html" class="nav-link">Cursos</a>
+                <a href="sobre-nosotros.html" class="nav-link">Sobre nosotros</a>
+                <a href="galeria.html" class="nav-link active">Aulas</a>
+                <a href="contacto.html" class="nav-link cta-btn">Contacto</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO GALERIA -->
+        <section class="hero-galeria">
+            <div class="hero-galeria-overlay">
+                <h1>Nuestras Aulas</h1>
+                <p>Espacios de formación totalmente equipados e homologados</p>
+            </div>
+        </section>
+
+        <!-- FILTROS GALERIA -->
+        <section class="filter-galeria-section">
+            <div class="container">
+                <h2>Nuestras Instalaciones</h2>
+                <div class="filter-buttons-galeria">
+                    <button class="filter-btn-galeria active" data-filter-galeria="all">Todas</button>
+                    <button class="filter-btn-galeria" data-filter-galeria="aula1">Aula 1</button>
+                    <button class="filter-btn-galeria" data-filter-galeria="aula2">Aula 2</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA GRID -->
+        <section class="galeria-section">
+            <div class="container">
+                <div class="galeria-grid">
+                    
+                    <!-- AULA 1 - IMAGEN 1 -->
+                    <div class="galeria-item" data-category-galeria="aula1">
+                        <div class="galeria-image-wrapper">
+                            <img src="img/Aula1.jpeg" alt="Aula 1 - Informática">
+                            <div class="galeria-overlay">
+                                <h3>Aula 1 - Informática</h3>
+                                <p>Equipada para cursos de Informática, Ofimática y Certificados</p>
+                                <button class="btn-lightbox" onclick="openLightbox(0)">Ver en grande</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AULA 1 - IMAGEN 2 -->
+                    <div class="galeria-item" data-category-galeria="aula1">
+                        <div class="galeria-image-wrapper">
+                            <img src="img/Aula2.jpeg" alt="Aula 1 - Vista Frontal">
+                            <div class="galeria-overlay">
+                                <h3>Aula 1 - Vista Frontal</h3>
+                                <p>Proyector, pizarra interactiva y equipos informáticos</p>
+                                <button class="btn-lightbox" onclick="openLightbox(1)">Ver en grande</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AULA 1 - IMAGEN 3 -->
+                    <div class="galeria-item" data-category-galeria="aula1">
+                        <div class="galeria-image-wrapper">
+                            <img src="img/Aula4.jpeg" alt="Aula 1 - Perspectiva Lateral">
+                            <div class="galeria-overlay">
+                                <h3>Aula 1 - Perspectiva Lateral</h3>
+                                <p>Espacio amplio adaptado para clases presenciales</p>
+                                <button class="btn-lightbox" onclick="openLightbox(2)">Ver en grande</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AULA 1 - IMAGEN 4 -->
+                    <div class="galeria-item" data-category-galeria="aula1">
+                        <div class="galeria-image-wrapper">
+                            <img src="img/Aula5.jpeg" alt="Aula 1 - Equipamiento Tecnológico">
+                            <div class="galeria-overlay">
+                                <h3>Aula 1 - Equipamiento Tecnológico</h3>
+                                <p>Conexión de alta velocidad y software actualizado</p>
+                                <button class="btn-lightbox" onclick="openLightbox(3)">Ver en grande</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AULA 2 - IMAGEN 1 -->
+                    <div class="galeria-item" data-category-galeria="aula2">
+                        <div class="galeria-image-wrapper">
+                            <img src="img/Aula6.jpeg" alt="Aula 2 - Competencias Digitales">
+                            <div class="galeria-overlay">
+                                <h3>Aula 2 - Competencias Digitales</h3>
+                                <p>Destinada a formación en gestión y administración</p>
+                                <button class="btn-lightbox" onclick="openLightbox(4)">Ver en grande</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AULA 2 - IMAGEN 2 -->
+                    <div class="galeria-item" data-category-galeria="aula2">
+                        <div class="galeria-image-wrapper">
+                            <img src="img/Aula7.jpeg" alt="Aula 2 - Vista General">
+                            <div class="galeria-overlay">
+                                <h3>Aula 2 - Vista General</h3>
+                                <p>Puestos con ordenadores HP y entorno adaptado</p>
+                                <button class="btn-lightbox" onclick="openLightbox(5)">Ver en grande</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AULA 2 - IMAGEN 3 -->
+                    <div class="galeria-item" data-category-galeria="aula2">
+                        <div class="galeria-image-wrapper">
+                            <img src="img/Aula8.jpeg" alt="Aula 2 - Área Práctica">
+                            <div class="galeria-overlay">
+                                <h3>Aula 2 - Área Práctica</h3>
+                                <p>Configuración optimizada para teoría y práctica</p>
+                                <button class="btn-lightbox" onclick="openLightbox(6)">Ver en grande</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX / MODAL CARRUSEL -->
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <button class="lightbox-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="lightbox-content">
+                <img id="lightbox-img" class="lightbox-image" src="" alt="Imagen ampliada">
+            </div>
+            <button class="lightbox-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+
+        <!-- CARACTERISTICAS DE LAS INSTALACIONES -->
+        <section class="facilities-section">
+            <div class="container">
+                <h2 class="section-title">Nuestras Aulas Cuentan Con</h2>
+                <div class="facilities-grid">
+                    <div class="facility-card">
+                        <div class="facility-icon">🖥️</div>
+                        <h3>Equipos Informáticos</h3>
+                        <p>Ordenadores individuales para cada alumno equipados con el software del curso</p>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-icon">📹</div>
+                        <h3>Proyección y Audio</h3>
+                        <p>Cañones de proyección en techo y sistemas audiovisuales en cada aula</p>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-icon">🌐</div>
+                        <h3>Conexión de Alta Velocidad</h3>
+                        <p>Red de fibra óptica para garantizar el desarrollo ágil de las clases</p>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-icon">📜</div>
+                        <h3>Homologación Oficial</h3>
+                        <p>Aulas homologadas para la impartición de Certificados de Profesionalidad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA CONTACTO -->
+        <section class="cta-galeria">
+            <div class="container">
+                <h2>¿Quieres conocer nuestro centro en Manzanares?</h2>
+                <p>Ven a visitarnos en C. Reyes Católicos, 32 o consúltanos sin compromiso</p>
+                <a href="contacto.html" class="btn btn-large">Contactar ahora</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>En-Formación</h4>
+                <p>Centro de Formación Profesional en Manzanares con amplia experiencia en el sector.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Reyes Católicos, 32 - Manzanares</p>
+                <p><i class="fas fa-phone"></i> 608 842 422</p>
+                <p><i class="fas fa-envelope"></i> info@en-formacion.es</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="https://facebook.com/enformacionmanzanares" class="social-link-button" target="_blank">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://instagram.com/enformacion" class="social-link-button" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://twitter.com/enformacion" class="social-link-button" target="_blank">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 En-Formación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT DE FILTROS Y LIGHTBOX -->
+    <script>
+        const galleryImages = [
+            'img/Aula1.jpeg',
+            'img/Aula2.jpeg',
+            'img/Aula4.jpeg',
+            'img/Aula5.jpeg',
+            'img/Aula6.jpeg',
+            'img/Aula7.jpeg',
+            'img/Aula8.jpeg'
+        ];
+        let currentIndex = 0;
+
+        function openLightbox(index) {
+            currentIndex = index;
+            document.getElementById('lightbox-img').src = galleryImages[currentIndex];
+            document.getElementById('lightbox').classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+
+        function changeSlide(direction) {
+            currentIndex += direction;
+            if (currentIndex < 0) {
+                currentIndex = galleryImages.length - 1;
+            } else if (currentIndex >= galleryImages.length) {
+                currentIndex = 0;
+            }
+            document.getElementById('lightbox-img').src = galleryImages[currentIndex];
+        }
+
+        // JS de Filtrado por Aulas
+        document.querySelectorAll('.filter-btn-galeria').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn-galeria').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter-galeria');
+                document.querySelectorAll('.galeria-item').forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category-galeria') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

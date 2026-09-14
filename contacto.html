@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | En-Formación</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER/NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-icon">EN</span>
+                <span class="logo-text">FORMACIÓN</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="cursos.html" class="nav-link">Cursos</a>
+                <a href="sobre-nosotros.html" class="nav-link">Sobre nosotros</a>
+                <a href="galeria.html" class="nav-link">Aulas</a>
+                <a href="contacto.html" class="nav-link active cta-btn">Contacto</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO CONTACTO -->
+    <section class="hero-contacto">
+        <div class="hero-contacto-content">
+            <h1>Contacta con nosotros</h1>
+            <p>Estamos aquí para resolver tus dudas y ayudarte a encontrar el curso perfecto</p>
+        </div>
+    </section>
+
+    <!-- CONTENIDO CONTACTO -->
+    <section class="contacto-section">
+        <div class="container">
+            <div class="contacto-grid">
+                
+                <!-- FORMULARIO -->
+                <div class="contacto-form-wrapper">
+                    <h2>Envíanos un mensaje</h2>
+                    <form class="contacto-form" id="formularioContacto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="informacion-cursos">Información sobre cursos</option>
+                                <option value="preinscripcion">Preinscripción</option>
+                                <option value="practicas">Prácticas en empresa</option>
+                                <option value="general">Consulta general</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="curso">¿Qué curso te interesa?</label>
+                            <select id="curso" name="curso">
+                                <option value="">Selecciona un curso</option>
+                                <option value="asir">Administración de Sistemas</option>
+                                <option value="ciberseguridad">Ciberseguridad</option>
+                                <option value="desarrollo">Desarrollo Web</option>
+                                <option value="administracion">Gestión Administrativa</option>
+                                <option value="comercio">Comercio Electrónico</option>
+                                <option value="turismo">Servicios Turísticos</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="privacidad" name="privacidad" required>
+                            <label for="privacidad">He leído y acepto la <a href="#">política de privacidad</a></label>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Enviar mensaje</button>
+                    </form>
+                </div>
+
+                <!-- INFORMACIÓN CONTACTO -->
+                <div class="contacto-info-wrapper">
+                    <h2>Información de contacto</h2>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Dirección</h3>
+                            <p>Reyes Católicos, 32</p>
+                            <p>13200 Manzanares (Ciudad Real)</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Teléfono</h3>
+                            <p>608 842 422</p>
+                            <p>Lunes a Viernes: 8:00 - 20:00</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h3>Correo Electrónico</h3>
+                            <p>info@en-formacion.es</p>
+                            <p>Respuesta en 24 horas</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-content">
+                            <h3>Horario</h3>
+                            <p>Mañana: 8:00 - 14:00</p>
+                            <p>Tarde: 15:00 - 20:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAPA (opcional) -->
+    <section class="mapa-section">
+        <div class="container">
+            <h2>Visítanos</h2>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.0956794924045!2d-3.373335524757249!3d38.998538971702644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69145ce5993cfb%3A0xf0550d4ef80261f1!2sC.%20Reyes%20Cat%C3%B3licos%2C%2032%2C%2013200%20Manzanares%2C%20Cdad.%20Real!5e1!3m2!1ses!2ses!4v1788508440526!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-contacto">
+        <h2>¿Preguntas frecuentes?</h2>
+        <p>Consulta nuestro apartado de preguntas frecuentes o contacta directamente</p>
+        <a href="#" class="btn btn-secondary">Ver FAQ</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>En-Formación</h4>
+                <p>Centro de Formación Profesional con más de 25 años de experiencia</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Reyes Católicos, 32 - Manzanares</p>
+                <p><i class="fas fa-phone"></i> 608 842 422</p>
+                <p><i class="fas fa-envelope"></i> info@en-formacion.es</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+    <a href="https://facebook.com/enformacionmanzanares" class="social-link-button" target="_blank">
+        <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a href="https://instagram.com/enformacion" class="social-link-button" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://twitter.com/enformacion" class="social-link-button" target="_blank">
+        <i class="fab fa-twitter"></i> Twitter
+    </a>
+</div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 En-Formación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

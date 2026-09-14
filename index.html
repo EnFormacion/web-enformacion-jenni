@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Formación - En-Formación</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Archivos CSS del proyecto -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/sobre-nosotros.css">
+    <link rel="stylesheet" href="css/galeria.css">
+</head>
+<body>
+
+    <!-- HEADER/NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-icon">EN</span>
+                <span class="logo-text">FORMACIÓN</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#inicio" data-section="inicio" class="nav-link active">Inicio</a>
+                <a href="#cursos" data-section="cursos" class="nav-link">Cursos</a>
+                <a href="#sobre-nosotros" data-section="sobre-nosotros" class="nav-link">Sobre nosotros</a>
+                <a href="#galeria" data-section="galeria" class="nav-link">Aulas</a>
+                <a href="#contacto" data-section="contacto" class="nav-link cta-btn">Contacto</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main id="main-content">
+
+        <!-- SECCIÓN 1: INICIO -->
+        <section id="inicio" class="page-section" style="display: block;">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Centro de <span class="highlight-yellow">Formación</span></h1>
+                    <p class="hero-subtitle">Más de 25 años formando profesionales de excelencia</p>
+                    <div class="hero-buttons">
+                        <a href="#sobre-nosotros" data-section="sobre-nosotros" class="btn btn-primary">Conócenos</a>
+                        <a href="#cursos" data-section="cursos" class="btn btn-secondary">Ver Cursos</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/hero-main.jpg" alt="Centro de Formación">
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="section-header">
+                    <h2>¿Por qué elegir En-Formación?</h2>
+                    <p>Ofrecemos formación profesional de calidad con experiencia contrastada</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Planes Actualizados</h3>
+                        <p>Contenidos adaptados a las demandas del mercado laboral actual</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👨‍🏫</div>
+                        <h3>Profesores Expertos</h3>
+                        <p>Docentes con experiencia en el sector profesional</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏢</div>
+                        <h3>Instalaciones Modernas</h3>
+                        <p>Laboratorios y aulas equipadas con tecnología de última generación</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💼</div>
+                        <h3>Bolsa de Empleo</h3>
+                        <p>Conexión directa con empresas del sector para prácticas y empleo</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Formación Presencial</h3>
+                        <p>Aprendizaje práctico con herramientas reales</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎓</div>
+                        <h3>Certificados Oficiales</h3>
+                        <p>Titulaciones reconocidas a nivel nacional</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCIÓN ÚLTIMAS NOTICIAS -->
+            <section class="blog-preview">
+                <div class="section-header">
+                    <h2>Últimas Noticias</h2>
+                    <p>Mantente informado sobre nuestros cursos y modalidades de formación</p>
+                </div>
+                <div class="blog-grid">
+                    
+                    <!-- NOTICIA 1 -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="img/ciberseguridad_2.jpg" alt="Nuevos Cursos de Ciberseguridad">
+                            <span class="blog-date">Septiembre 2026</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Nuevos Cursos de Ciberseguridad</h3>
+                            <p>Descubre nuestros programas especializados en seguridad informática. Modalidad privada con titulación técnica acreditada.</p>
+                            <a href="#contacto" data-section="contacto" class="read-more">Ver condiciones privadas →</a>
+                        </div>
+                    </article>
+
+                    <!-- NOTICIA 2 -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="img/Acta_como_un_gestor.jpg" alt="Éxito en Prácticas Empresariales">
+                            <span class="blog-date">Agosto 2026</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Éxito en Prácticas Empresariales</h3>
+                            <p>Nuestros alumnos completan con éxito sus prácticas gracias a la formación 100% subvencionada por la JCCM y el Ministerio.</p>
+                            <a href="#contacto" data-section="contacto" class="read-more">Ver requisitos de gratuidad →</a>
+                        </div>
+                    </article>
+
+                    <!-- NOTICIA 3 -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="img/Diverse_8_to_12_year_old_kids.jpg" alt="Infraestructura Mejorada">
+                            <span class="blog-date">Julio 2026</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Infraestructura Mejorada</h3>
+                            <p>Equipamiento tecnológico renovado con portátiles y material interactivo para grupos de primaria (8 a 12 años) y apoyo escolar.</p>
+                            <a href="#contacto" data-section="contacto" class="read-more">Ver detalles del programa →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <section class="cta-section">
+                <h2>¿Listo para comenzar tu formación?</h2>
+                <p>Ponte en contacto con nosotros y descubre el curso perfecto para ti</p>
+                <a href="#contacto" data-section="contacto" class="btn btn-large">Contacta con nosotros</a>
+            </section>
+        </section>
+
+        <!-- SECCIÓN 2: CURSOS -->
+        <section id="cursos" class="page-section" style="display: none;">
+            <section class="hero-cursos">
+                <div class="hero-overlay">
+                    <h1>Nuestros Cursos</h1>
+                    <p>Formación profesional adaptada a tu futuro</p>
+                </div>
+            </section>
+
+            <section class="filter-section">
+                <div class="container">
+                    <h2>Filtrar por categoría</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="informatica">Informática</button>
+                        <button class="filter-btn" data-filter="administracion">Administración</button>
+                        <button class="filter-btn" data-filter="comercio">Comercio</button>
+                        <button class="filter-btn" data-filter="servicios">Servicios</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cursos-section">
+                <div class="container">
+                    <div class="cursos-grid">
+                        <div class="curso-card" data-category="idiomas">
+                            <div class="curso-imagen">
+                                <img src="img/curso-idiomas.jpg" alt="Idiomas">
+                            </div>
+                            <div class="curso-header">
+                                <span class="curso-icon">🌐</span>
+                                <span class="curso-nivel">Nivel: Todos</span>
+                            </div>
+                            <div class="curso-body">
+                                <h3>Inglés - Trinity College London</h3>
+                                <p class="curso-desc">Preparación de inglés para todas las edades. Certificaciones oficiales de Trinity College (A2, B1, B2, C1). Centro examinador oficial.</p>
+                                <div class="curso-info">
+                                    <span>📚 Flexible</span>
+                                    <span>👥 Grupos reducidos</span>
+                                </div>
+                            </div>
+                            <div class="curso-footer">
+                                <a href="#contacto" data-section="contacto" class="btn-curso">Más información</a>
+                            </div>
+                        </div>
+
+                        <div class="curso-card" data-category="informatica">
+                            <div class="curso-imagen">
+                                <img src="img/curso-gestion.jpg" alt="Ofimática">
+                            </div>
+                            <div class="curso-header">
+                                <span class="curso-icon">💻</span>
+                                <span class="curso-nivel">Nivel: Básico/Avanzado</span>
+                            </div>
+                            <div class="curso-body">
+                                <h3>Ofimática Básica y Avanzada</h3>
+                                <p class="curso-desc">Formación práctica en Microsoft Office. Word, Excel, PowerPoint y herramientas esenciales para el trabajo administrativo.</p>
+                                <div class="curso-info">
+                                    <span>📚 Flexible</span>
+                                    <span>👥 Todos los niveles</span>
+                                </div>
+                            </div>
+                            <div class="curso-footer">
+                                <a href="#contacto" data-section="contacto" class="btn-curso">Más información</a>
+                            </div>
+                        </div>
+
+                        <div class="curso-card" data-category="informatica">
+                            <div class="curso-imagen">
+                                <img src="img/curso-competencias-digitales.jpg" alt="Competencias Digitales">
+                            </div>
+                            <div class="curso-header">
+                                <span class="curso-icon">📱</span>
+                                <span class="curso-nivel">Nivel: Básico</span>
+                            </div>
+                            <div class="curso-body">
+                                <h3>Competencias Digitales</h3>
+                                <p class="curso-desc">Uso seguro de Internet, navegación, correo electrónico y herramientas esenciales para trabajo y comunicación en línea.</p>
+                                <div class="curso-info">
+                                    <span>📚 Flexible</span>
+                                    <span>👥 Gratuito/Subvencionado</span>
+                                </div>
+                            </div>
+                            <div class="curso-footer">
+                                <a href="#contacto" data-section="contacto" class="btn-curso">Más información</a>
+                            </div>
+                        </div>
+
+                        <div class="curso-card" data-category="servicios">
+                            <div class="curso-imagen">
+                                <img src="img/curso-hosteleria.jpg" alt="Hostelería">
+                            </div>
+                            <div class="curso-header">
+                                <span class="curso-icon">🏨</span>
+                                <span class="curso-nivel">Nivel: Profesional</span>
+                            </div>
+                            <div class="curso-body">
+                                <h3>Hostelería y Restauración (Formación Dual)</h3>
+                                <p class="curso-desc">Certificados duales con contrato de trabajo remunerado. Servicios de Bar, Cafetería y Restaurante. Formación + Empleo.</p>
+                                <div class="curso-info">
+                                    <span>📚 2000 horas</span>
+                                    <span>👥 Certificado oficial</span>
+                                </div>
+                            </div>
+                            <div class="curso-footer">
+                                <a href="#contacto" data-section="contacto" class="btn-curso">Más información</a>
+                            </div>
+                        </div>
+
+                        <div class="curso-card" data-category="administracion">
+                            <div class="curso-imagen">
+                                <img src="img/curso-oposiciones.jpg" alt="Oposiciones">
+                            </div>
+                            <div class="curso-header">
+                                <span class="curso-icon">📚</span>
+                                <span class="curso-nivel">Nivel: Avanzado</span>
+                            </div>
+                            <div class="curso-body">
+                                <h3>Preparación de Oposiciones</h3>
+                                <p class="curso-desc">Preparación teórica y legislativa para plazas de empleo público. Auxiliar Administrativo, servicios de salud y SESCAM.</p>
+                                <div class="curso-info">
+                                    <span>📚 Adaptable</span>
+                                    <span>👥 Grupos pequeños</span>
+                                </div>
+                            </div>
+                            <div class="curso-footer">
+                                <a href="#contacto" data-section="contacto" class="btn-curso">Más información</a>
+                            </div>
+                        </div>
+
+                        <div class="curso-card" data-category="comercio">
+                            <div class="curso-imagen">
+                                <img src="img/curso-Licencias y Certificaciones.jpg" alt="Licencias">
+                            </div>
+                            <div class="curso-header">
+                                <span class="curso-icon">🔒</span>
+                                <span class="curso-nivel">Nivel: Técnico</span>
+                            </div>
+                            <div class="curso-body">
+                                <h3>Licencias y Certificaciones Técnicas</h3>
+                                <p class="curso-desc">PRL (Prevención de Riesgos Laborales), Manipulación de Alimentos, Manipulador de Fitosanitarios. Certificaciones obligatorias.</p>
+                                <div class="curso-info">
+                                    <span>📚 Oficial</span>
+                                    <span>👥 Todos los sectores</span>
+                                </div>
+                            </div>
+                            <div class="curso-footer">
+                                <a href="#contacto" data-section="contacto" class="btn-curso">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta-cursos">
+                <h2>¿No encuentras lo que buscas?</h2>
+                <p>Contacta con nosotros para conocer otros programas de formación</p>
+                <a href="#contacto" data-section="contacto" class="btn btn-large">Solicitar información</a>
+            </section>
+        </section>
+
+        <!-- SECCIÓN 3: SOBRE NOSOTROS -->
+        <section id="sobre-nosotros" class="page-section" style="display: none;">
+            <section class="hero-about">
+                <div class="hero-about-content">
+                    <h1>Sobre Nosotros</h1>
+                    <p>Un centro enfocado en cubrir las necesidades formativas de nuestra comarca</p>
+                </div>
+            </section>
+
+            <section class="about-section">
+                <div class="container">
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <h2>Nuestra Historia</h2>
+                            <p>EN-FORMACIÓN S.C. comienza su actividad con un objetivo claro: aunar en un centro toda la formación que cubra las necesidades existentes en nuestra comarca.</p>
+                            <p>Contamos con un equipo de profesionales, con una larga experiencia en formación, que se complementa con un grupo de colaboradores externos especializados en diferentes áreas estratégicas.</p>
+                            <p>Sabemos de la importancia de la educación, la formación y el desarrollo de los alumnos, por lo que cuidamos todos los aspectos que conciernen al proceso educativo adaptándonos a las necesidades de nuestros alumnos.</p>
+                            <p>Hemos impartido en diversos sectores de actividad, lo que nos permite asesorarle con conocimiento y experiencia en la formación que necesite.</p>
+                        </div>
+                        <div class="about-image">
+                            <div class="about-image-interactive">
+                                <div class="interactive-card">
+                                    <div class="glow-effect"></div>
+                                    <div class="floating-words-container">
+                                        <span class="word w1" onclick="navigateToSection('cursos')">📚 Cursos</span>
+                                        <span class="word w2" onclick="navigateToSection('galeria')">🏫 Aulas</span>
+                                        <span class="word w3" onclick="navigateToSection('contacto')">📩 Contacto</span>
+                                        <span class="word w4" onclick="navigateToSection('cursos')">🎓 Certificaciones</span>
+                                        <span class="word w5" onclick="navigateToSection('sobre-nosotros')">🌟 Excelencia</span>
+                                    </div>
+                                    <p class="interactive-hint">Haz clic en cualquier palabra para ir a la sección</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mision-vision-values">
+                <div class="container">
+                    <div class="mvv-grid">
+                        <div class="mvv-card">
+                            <h3>Misión</h3>
+                            <p>Prestar un servicio formativo de calidad que satisfaga al alumnado, tanto en los cursos de formación profesional para el empleo, como en la formación a empresas y a particulares; desarrollando una formación integral que capacite al alumnado académica y profesionalmente para adaptarse a una sociedad cambiante.</p>
+                        </div>
+                        <div class="mvv-card">
+                            <h3>Visión</h3>
+                            <ul>
+                                <li>Ser un referente académico y profesional para nuestra provincia como Centro de Formación.</li>
+                                <li>Lograr un alto grado de éxito académico para la incorporación a la vida laboral o académica.</li>
+                                <li>Innovar continuamente en cuanto a metodologías didácticas y oferta formativa.</li>
+                                <li>Impulsar alianzas con centros educativos, empresas y otras entidades para aportar valor añadido.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 class="section-title" style="margin-top: 40px;">Valores</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">✔️</div>
+                            <h3>Responsabilidad e Implicación</h3>
+                            <p>En todas nuestras actividades docentes y operativas.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">🤝</div>
+                            <h3>Compromiso</h3>
+                            <p>Con la mejora socio-laboral de nuestro entorno.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">🎓</div>
+                            <h3>Profesionalidad</h3>
+                            <p>Garantizada por un equipo cualificado y experimentado.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">📈</div>
+                            <h3>Mejora Continua</h3>
+                            <p>Y trabajo en equipo constante.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta-about">
+                <h2>Únete a nuestra comunidad de alumnos</h2>
+                <p>Dinos qué necesitas y nosotros te ayudamos a alcanzar tus objetivos.</p>
+                <a href="#contacto" data-section="contacto" class="btn btn-large">Contacta con nosotros</a>
+            </section>
+        </section>
+
+        <!-- SECCIÓN 4: AULAS / GALERÍA -->
+        <section id="galeria" class="page-section" style="display: none;">
+            <section class="hero-galeria">
+                <div class="hero-galeria-overlay">
+                    <h1>Nuestras Aulas</h1>
+                    <p>Espacios de formación totalmente equipados e homologados</p>
+                </div>
+            </section>
+
+            <section class="filter-galeria-section">
+                <div class="container">
+                    <h2>Nuestras Instalaciones</h2>
+                    <div class="filter-buttons-galeria">
+                        <button class="filter-btn-galeria active" data-filter-galeria="all">Todas</button>
+                        <button class="filter-btn-galeria" data-filter-galeria="aula1">Aula 1</button>
+                        <button class="filter-btn-galeria" data-filter-galeria="aula2">Aula 2</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="galeria-section">
+                <div class="container">
+                    <div class="galeria-grid">
+                        <div class="galeria-item" data-category-galeria="aula1">
+                            <div class="galeria-image-wrapper">
+                                <img src="img/Aula1.jpeg" alt="Aula 1 - Informática">
+                                <div class="galeria-overlay">
+                                    <h3>Aula 1 - Informática</h3>
+                                    <p>Equipada para cursos de Informática, Ofimática y Certificados</p>
+                                    <button class="btn-lightbox" onclick="openLightbox(0)">Ver en grande</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="galeria-item" data-category-galeria="aula1">
+                            <div class="galeria-image-wrapper">
+                                <img src="img/Aula2.jpeg" alt="Aula 1 - Vista Frontal">
+                                <div class="galeria-overlay">
+                                    <h3>Aula 1 - Vista Frontal</h3>
+                                    <p>Proyector, pizarra interactiva y equipos informáticos</p>
+                                    <button class="btn-lightbox" onclick="openLightbox(1)">Ver en grande</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="galeria-item" data-category-galeria="aula1">
+                            <div class="galeria-image-wrapper">
+                                <img src="img/Aula4.jpeg" alt="Aula 1 - Perspectiva">
+                                <div class="galeria-overlay">
+                                    <h3>Aula 1 - Perspectiva Lateral</h3>
+                                    <p>Espacio amplio adaptado para clases presenciales</p>
+                                    <button class="btn-lightbox" onclick="openLightbox(2)">Ver en grande</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="galeria-item" data-category-galeria="aula1">
+                            <div class="galeria-image-wrapper">
+                                <img src="img/Aula5.jpeg" alt="Aula 1 - Equipamiento">
+                                <div class="galeria-overlay">
+                                    <h3>Aula 1 - Equipamiento Tecnológico</h3>
+                                    <p>Conexión de alta velocidad y software actualizado</p>
+                                    <button class="btn-lightbox" onclick="openLightbox(3)">Ver en grande</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="galeria-item" data-category-galeria="aula2">
+                            <div class="galeria-image-wrapper">
+                                <img src="img/Aula6.jpeg" alt="Aula 2 - Competencias Digitales">
+                                <div class="galeria-overlay">
+                                    <h3>Aula 2 - Competencias Digitales</h3>
+                                    <p>Destinada a formación en gestión y administración</p>
+                                    <button class="btn-lightbox" onclick="openLightbox(4)">Ver en grande</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="galeria-item" data-category-galeria="aula2">
+                            <div class="galeria-image-wrapper">
+                                <img src="img/Aula7.jpeg" alt="Aula 2 - Vista General">
+                                <div class="galeria-overlay">
+                                    <h3>Aula 2 - Vista General</h3>
+                                    <p>Puestos con ordenadores HP y entorno adaptado</p>
+                                    <button class="btn-lightbox" onclick="openLightbox(5)">Ver en grande</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="galeria-item" data-category-galeria="aula2">
+                            <div class="galeria-image-wrapper">
+                                <img src="img/Aula8.jpeg" alt="Aula 2 - Área Práctica">
+                                <div class="galeria-overlay">
+                                    <h3>Aula 2 - Área Práctica</h3>
+                                    <p>Configuración optimizada para teoría y práctica</p>
+                                    <button class="btn-lightbox" onclick="openLightbox(6)">Ver en grande</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LIGHTBOX -->
+            <div id="lightbox" class="lightbox">
+                <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+                <button class="lightbox-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+                <div class="lightbox-content">
+                    <img id="lightbox-img" class="lightbox-image" src="" alt="Imagen ampliada">
+                </div>
+                <button class="lightbox-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+
+            <section class="facilities-section">
+                <div class="container">
+                    <h2 class="section-title">Nuestras Aulas Cuentan Con</h2>
+                    <div class="facilities-grid">
+                        <div class="facility-card">
+                            <div class="facility-icon">🖥️</div>
+                            <h3>Equipos Informáticos</h3>
+                            <p>Ordenadores individuales para cada alumno equipados con el software del curso</p>
+                        </div>
+                        <div class="facility-card">
+                            <div class="facility-icon">📹</div>
+                            <h3>Proyección y Audio</h3>
+                            <p>Cañones de proyección en techo y sistemas audiovisuales en cada aula</p>
+                        </div>
+                        <div class="facility-card">
+                            <div class="facility-icon">🌐</div>
+                            <h3>Conexión de Alta Velocidad</h3>
+                            <p>Red de fibra óptica para garantizar el desarrollo ágil de las clases</p>
+                        </div>
+                        <div class="facility-card">
+                            <div class="facility-icon">📜</div>
+                            <h3>Homologación Oficial</h3>
+                            <p>Aulas homologadas para la impartición de Certificados de Profesionalidad</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta-galeria">
+                <div class="container">
+                    <h2>¿Quieres conocer nuestro centro en Manzanares?</h2>
+                    <p>Ven a visitarnos en C. Reyes Católicos, 32 o consúltanos sin compromiso</p>
+                    <a href="#contacto" data-section="contacto" class="btn btn-large">Contactar ahora</a>
+                </div>
+            </section>
+        </section>
+
+        <!-- SECCIÓN 5: CONTACTO -->
+        <section id="contacto" class="page-section" style="display: none;">
+            <section class="hero-contacto">
+                <div class="hero-contacto-content">
+                    <h1>Contacta con nosotros</h1>
+                    <p>Estamos aquí para resolver tus dudas y ayudarte a encontrar el curso perfecto</p>
+                </div>
+            </section>
+
+            <section class="contacto-section">
+                <div class="container">
+                    <div class="contacto-grid">
+                        <div class="contacto-form-wrapper">
+                            <h2>Envíanos un mensaje</h2>
+                            <form class="contacto-form" id="formularioContacto">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre completo</label>
+                                    <input type="text" id="nombre" name="nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="tel" id="telefono" name="telefono">
+                                </div>
+                                <div class="form-group">
+                                    <label for="asunto">Asunto</label>
+                                    <select id="asunto" name="asunto" required>
+                                        <option value="">Selecciona un asunto</option>
+                                        <option value="informacion-cursos">Información sobre cursos</option>
+                                        <option value="preinscripcion">Preinscripción</option>
+                                        <option value="practicas">Prácticas en empresa</option>
+                                        <option value="general">Consulta general</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="curso">¿Qué curso te interesa?</label>
+                                    <select id="curso" name="curso">
+                                        <option value="">Selecciona un curso</option>
+                                        <option value="asir">Administración de Sistemas</option>
+                                        <option value="ciberseguridad">Ciberseguridad</option>
+                                        <option value="desarrollo">Desarrollo Web</option>
+                                        <option value="administracion">Gestión Administrativa</option>
+                                        <option value="comercio">Comercio Electrónico</option>
+                                        <option value="turismo">Servicios Turísticos</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mensaje">Mensaje</label>
+                                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                                </div>
+                                <div class="form-group checkbox">
+                                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                                    <label for="privacidad">He leído y acepto la <a href="#">política de privacidad</a></label>
+                                </div>
+                                <button type="submit" class="btn btn-submit">Enviar mensaje</button>
+                            </form>
+                        </div>
+
+                        <div class="contacto-info-wrapper">
+                            <h2>Información de contacto</h2>
+                            <div class="info-card">
+                                <div class="info-icon">📍</div>
+                                <div class="info-content">
+                                    <h3>Dirección</h3>
+                                    <p>Reyes Católicos, 32</p>
+                                    <p>13200 Manzanares (Ciudad Real)</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">📞</div>
+                                <div class="info-content">
+                                    <h3>Teléfono</h3>
+                                    <p>608 842 422</p>
+                                    <p>Lunes a Viernes: 8:00 - 20:00</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">📧</div>
+                                <div class="info-content">
+                                    <h3>Correo Electrónico</h3>
+                                    <p>info@en-formacion.es</p>
+                                    <p>Respuesta en 24 horas</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">🕐</div>
+                                <div class="info-content">
+                                    <h3>Horario</h3>
+                                    <p>Mañana: 8:00 - 14:00</p>
+                                    <p>Tarde: 15:00 - 20:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mapa-section">
+                <div class="container">
+                    <h2>Visítanos</h2>
+                    <div class="mapa-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.0956794924045!2d-3.373335524757249!3d38.998538971702644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69145ce5993cfb%3A0xf0550d4ef80261f1!2sC.%20Reyes%20Cat%C3%B3licos%2C%2032%2C%2013200%20Manzanares%2C%20Cdad.%20Real!5e1!3m2!1ses!2ses!4v1788508440526!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>En-Formación</h4>
+                <p>Centro de Formación Profesional con más de 25 años de experiencia</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio" data-section="inicio">Inicio</a></li>
+                    <li><a href="#cursos" data-section="cursos">Cursos</a></li>
+                    <li><a href="#sobre-nosotros" data-section="sobre-nosotros">Sobre nosotros</a></li>
+                    <li><a href="#contacto" data-section="contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Reyes Católicos, 32 - Manzanares</p>
+                <p><i class="fas fa-phone"></i> 608 842 422</p>
+                <p><i class="fas fa-envelope"></i> info@en-formacion.es</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="https://facebook.com/enformacionmanzanares" class="social-link-button" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="https://instagram.com/enformacion" class="social-link-button" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://twitter.com/enformacion" class="social-link-button" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 En-Formación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT PRINCIPAL -->
+    <script src="js/script.js"></script>
+
+    <!-- SCRIPT INTERNO -->
+    <script>
+        // Función global para la tarjeta interactiva y enlaces
+        function navigateToSection(targetSection) {
+            document.querySelectorAll('.page-section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            const activeSection = document.getElementById(targetSection);
+            if (activeSection) {
+                activeSection.style.display = 'block';
+            }
+
+            document.querySelectorAll('.nav-link').forEach(nav => nav.classList.remove('active'));
+            const activeNav = document.querySelector(`.nav-link[data-section="${targetSection}"]`);
+            if (activeNav) {
+                activeNav.classList.add('active');
+            }
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Navegación mediante atributos data-section
+        document.querySelectorAll('[data-section]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetSection = this.getAttribute('data-section');
+                navigateToSection(targetSection);
+            });
+        });
+
+        // Galería Lightbox
+        const galleryImages = [
+            'img/Aula1.jpeg',
+            'img/Aula2.jpeg',
+            'img/Aula4.jpeg',
+            'img/Aula5.jpeg',
+            'img/Aula6.jpeg',
+            'img/Aula7.jpeg',
+            'img/Aula8.jpeg'
+        ];
+        let currentIndex = 0;
+
+        function openLightbox(index) {
+            currentIndex = index;
+            document.getElementById('lightbox-img').src = galleryImages[currentIndex];
+            document.getElementById('lightbox').classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+
+        function changeSlide(direction) {
+            currentIndex += direction;
+            if (currentIndex < 0) {
+                currentIndex = galleryImages.length - 1;
+            } else if (currentIndex >= galleryImages.length) {
+                currentIndex = 0;
+            }
+            document.getElementById('lightbox-img').src = galleryImages[currentIndex];
+        }
+
+        // Filtro de galería
+        document.querySelectorAll('.filter-btn-galeria').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn-galeria').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter-galeria');
+                document.querySelectorAll('.galeria-item').forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category-galeria') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
